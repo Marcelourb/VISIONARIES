@@ -27,12 +27,12 @@ public class Methods {
         
         if (x % 2 == 0){
          
-            System.out.println("The numer is odd!");
+            System.out.println("The numer is even!");
         }
                
         else {
       
-            System.out.println("The numer is even!");
+            System.out.println("The numer is odd!");
     }  
     }
 
