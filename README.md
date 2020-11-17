@@ -13,6 +13,10 @@ package methods;
 
 public class Methods {
    
+   
+      /**
+      @author Gabriel Jonathan
+      */
    static void gabrielMethods(){
         Scanner sc = new Scanner (System.in);
         
