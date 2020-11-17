@@ -19,9 +19,40 @@ public class Methods {
     static void KeithMethod() {
         System.out.println("This is Keith example");
         System.out.println("This is my main program");
-          
-     
+       
+    
+    
+    static void LucasMethods() {
+    
+        Scanner myKB = new Scanner(System.in);
+    String pword;
+    int numAttemts =0;
+    int maxAttemts =5;
+        
+     do{      
+            
+         //Ask the user for password at least once!
+         System.out.println("Enter the password.You have " + (maxAttemts - numAttemts ) + " attemps remaining ");
+         pword = myKB.nextLine();
+         numAttemts++;
+         //repeat if the password is wrong
+            
+     }while(   (!pword.equals("Password")) && (numAttemts<maxAttemts));  
+            
+             
+        if (pword.equals("Password")){
+            System.out.println("Access Granted");
+   
+        }else {
+            System.out.println("You are locked out of your account");
+        }
+   
     }
+  
+    
+    
+    
+    
     
     static int numMethod(int x, int y){
         /*
@@ -40,18 +71,12 @@ public class Methods {
        KeithMethod();
        int sum = numMethod(9, 8);
        System.out.println("Sum= " + sum);
+       
+       LucasMethods();
    }
 }
 
 
 
-=======
-...
-Lucas Albuquerque
-
-teste
-=======
-
-Gabriel Jonathan
 
 
