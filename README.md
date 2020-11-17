@@ -1,7 +1,6 @@
 # VISIONARIES
 
 That is our group repository
-
 <<<<<<< HEAD
 
 /*
@@ -46,3 +45,9 @@ public class Methods {
 
 
 >>>>>>> Branch-Keith
+=======
+...
+Lucas Albuquerque
+
+Gabriel Jonathan
+>>>>>>> Branch-Gabriel
