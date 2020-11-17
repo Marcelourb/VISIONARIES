@@ -39,18 +39,7 @@ public class TrafficLight {
              System.out.Println("This is not correct");
          }
  }               
-}
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+}  
     }
     
 }
