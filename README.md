@@ -4,7 +4,9 @@
 
 public class TrafficLight {
 
-    static void MarceloMethod(String[] args) {
+   static void MarceloMethod() {
+           
+    public static void main(String[] args) {
         
     BufferedReader myKB = new BufferedReader (new InputStreamReader (System.in))
     
@@ -42,8 +44,5 @@ public class TrafficLight {
          catch (Exception e) {
              System.out.Println("This is not correct");
          }
- }               
-}  
-    }
-    
+}
 }
