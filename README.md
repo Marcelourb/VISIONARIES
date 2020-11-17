@@ -13,8 +13,21 @@ package methods;
 /**
  *
  * @author kcfke
- */
+ */  
 public class Methods {
+
+     /**
+     * @Ronaldo
+     */
+    static void RonaldoMethods(){
+        int first = 10;
+        int second = 10;
+        int sum = first + second;
+        System.out.println("first="+first+"second="+second);
+        System.out.println("The sum of the first and second number is"+sum);
+        // TODO code application logic here
+    }
+
 
     static void KeithMethod() {
         System.out.println("This is Keith example");
@@ -67,7 +80,8 @@ public class Methods {
     
     
    public static void main(String[] args){
-       
+     
+       RonaldoMethods();
        KeithMethod();
        int sum = numMethod(9, 8);
        System.out.println("Sum= " + sum);
