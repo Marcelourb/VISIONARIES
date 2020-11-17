@@ -13,6 +13,54 @@ package methods;
 
 public class Methods {
 
+ /**
+ @author Marcelo Urbano
+ */
+
+
+static void MarceloMethod() {
+
+public static void main(String[] args) {
+    
+BufferedReader myKB = new BufferedReader (new InputStreamReader (System.in))
+
+        System.out.println("What colour is the Traffic Light?");
+
+     try {
+  
+          String lightColour = myKB.readLine();
+          
+          lightColour = lightColour.toUpperCase();
+          
+          switch (lightColour) {
+             
+              case "RED":
+                  
+                  System.out.println("Stop!");
+                  break;
+               
+              case "ORANGE":
+                  
+                  System.out.println("Slow Down!");
+                  break;
+                  
+              case "GREEN":
+                  
+                  System.out.println("Keep Going!");
+                  break;
+                  
+              default 
+                  
+                  System.out.println("This is not a traffic light colour")
+         }
+     }
+     
+     catch (Exception e) {
+         System.out.Println("This is not correct");
+     }
+}
+
+
 
 
  static void fabioramosMethods(){
@@ -116,7 +164,8 @@ public class Methods {
 }
    
    public static void main(String[] args){
-     
+       MarceloMethods();
+       fabioramosMethods();
        RonaldoMethods();
        KeithMethod();
        int sum = numMethod(9, 8);
