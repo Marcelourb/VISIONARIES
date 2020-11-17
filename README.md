@@ -1,7 +1,7 @@
 # VISIONARIES
 
 That is our group repository
-<<<<<<< HEAD
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -44,10 +44,14 @@ public class Methods {
 }
 
 
->>>>>>> Branch-Keith
+
 =======
 ...
 Lucas Albuquerque
 
+teste
+=======
+
 Gabriel Jonathan
->>>>>>> Branch-Gabriel
+
+
