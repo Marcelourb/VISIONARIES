@@ -10,39 +10,92 @@ That is our group repository
  */
 package methods;
 
-/**
- *
- * @author kcfke
- */  
+
 public class Methods {
 
-     /**
-     * @Ronaldo
-     */
-    static void RonaldoMethods(){
+
+
+ static void fabioramosMethods(){
+ 
+              /**
+              * @author FabioRamos
+              */
+
+             Scanner input = new Scanner (System.in);// 
+       
+            int age ;//variable age
+            try{// i used try and catch to gets some error 
+               
+            System.out.println("Hello, enter your age.");// ask the user
+            age = input.nextInt();// gets the input 
+       
+            if((age < 0) || (age >100)){// logical the has to put just 0 to 100 
+            System.out.println("It is not age");
+           }
+             else if((age >= 1)&&(age <=17)){
+            System.out.println("Sorry,Too young to vote");
+           }    
+             else if((age >=18) &&(age <=65)){
+             System.out.println("Working hard?");
+           }
+             else if((age >=66)&&(age <=100)){
+            System.out.println("Enjoy Retirement");
+           }
+            
+          }
+           catch(Exception e){
+            System.out.println("It is not age");// 
+          }
+                   
+          }
+    
+    
+    
+    
+    
+    
+          /**
+         * @author Ronaldo
+         */
+        static void RonaldoMethods(){
         int first = 10;
         int second = 10;
         int sum = first + second;
         System.out.println("first="+first+"second="+second);
         System.out.println("The sum of the first and second number is"+sum);
         // TODO code application logic here
-    }
+        }
 
 
-    static void KeithMethod() {
+        static void KeithMethod() {
+    
+    
+        /**
+       *
+       * @author keith
+       */  
+    
         System.out.println("This is Keith example");
         System.out.println("This is my main program");
-       
+        
+        static int numMethod(int x, int y){
+        /*
+        *
+        @keithMethod
+        */
+        
+        return x + y;    
+    }
     
     
     static void LucasMethods() {
     
         Scanner myKB = new Scanner(System.in);
-    String pword;
-    int numAttemts =0;
-    int maxAttemts =5;
+         String pword;
+         int numAttemts =0;
+         int maxAttemts =5;
         
-     do{      
+          do{      
             
          //Ask the user for password at least once!
          System.out.println("Enter the password.You have " + (maxAttemts - numAttemts ) + " attemps remaining ");
@@ -60,25 +113,8 @@ public class Methods {
             System.out.println("You are locked out of your account");
         }
    
-    }
-  
-    
-    
-    
-    
-    
-    static int numMethod(int x, int y){
-        /*
-        *
-        @keithMethod
-        */
-        
-           
-        return x + y; 
-        
-    }
-    
-    
+}
+   
    public static void main(String[] args){
      
        RonaldoMethods();
