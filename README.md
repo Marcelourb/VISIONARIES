@@ -1,5 +1,16 @@
 # VISIONARIES
 
+package trafficlight;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/**
+ *
+ * @author Marcelo Urbano
+ */
+ 
 public class TrafficLight {
 
     static void MarceloMethod(String[] args) {
@@ -40,8 +51,8 @@ public class TrafficLight {
          catch (Exception e) {
              System.out.Println("This is not correct");
          }
-}        
-        
+ }               
+}
         
         
         
