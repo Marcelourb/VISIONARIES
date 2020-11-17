@@ -193,7 +193,7 @@ BufferedReader myKB = new BufferedReader (new InputStreamReader (System.in))
        int sum = numMethod(9, 8);
        System.out.println("Sum= " + sum);
        
-       LucasMethods();
+      LucasMethods();
    }
 }
 
