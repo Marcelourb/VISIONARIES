@@ -12,6 +12,26 @@ package methods;
 
 
 public class Methods {
+   
+   static void gabrielMethods(){
+        Scanner sc = new Scanner (System.in);
+        
+        int x;
+        
+        System.out.println("Enter a number");
+        x = sc.nextInt();
+       
+        
+        if (x % 2 == 0){
+         
+            System.out.println("The numer is odd!");
+        }
+               
+        else {
+      
+            System.out.println("The numer is even!");
+    }  
+    }
 
  /**
  @author Marcelo Urbano
@@ -59,7 +79,7 @@ BufferedReader myKB = new BufferedReader (new InputStreamReader (System.in))
          System.out.Println("This is not correct");
      }
 }
-
+}
 
 
 
@@ -164,6 +184,8 @@ BufferedReader myKB = new BufferedReader (new InputStreamReader (System.in))
 }
    
    public static void main(String[] args){
+       
+       gabrielMethods();
        MarceloMethods();
        fabioramosMethods();
        RonaldoMethods();
@@ -171,7 +193,7 @@ BufferedReader myKB = new BufferedReader (new InputStreamReader (System.in))
        int sum = numMethod(9, 8);
        System.out.println("Sum= " + sum);
        
-       LucasMethods();
+      LucasMethods();
    }
 }
 
