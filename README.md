@@ -1,8 +1,3 @@
-/**
- *
- * @author Marcelo Urbano
- */
- 
 public class TrafficLight {
 
     static void MarceloMethod(String[] args) {
